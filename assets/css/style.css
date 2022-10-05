@@ -1,0 +1,189 @@
+i {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    color: blueviolet;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/hero-bg.jpg") top center;
+    background-size: cover;
+  }
+  
+  #hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #21252c;
+  }
+  
+  #hero p {
+    color: #21252c;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+  #about {
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 7px;
+  }
+
+  #about h2{
+    color:  #21252c;
+  }
+
+  #about h5{
+    padding-top: 5px;
+    color:  #21252c;
+  }
+
+  #about hr{
+    border-style: solid;
+    height: 3px;
+    color: #21252c ;
+  }
+
+  #about .isi{
+    text-align: justify;
+  }
+
+  #about .container-img{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  #about .img-card{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  #about .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    border-radius: 50%;
+    transition: .5s ease;
+    opacity:0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #about .container:hover .overlay {
+    opacity: 1;
+  }
+
+  #about i{
+    color: #21252c;
+  }
+
+  #study {
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 7px;
+  }
+
+  #study .isi{
+    text-align: justify;
+  }
+
+  #study .head-card{
+    text-align: center;
+    padding-bottom: 3px;
+  }
+
+  #portfolio {
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 7px;
+  }
+
+  #portfolio .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 3px;
+    margin-bottom: 15px;
+  }
+
+  #task{
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 7px;
+  }
+
+  #task .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 3px;
+    margin-bottom: 15px;
+  }
+
+  .btn-task{
+    color: #ffffff;
+    background-color: #21252c;
+    border: none;
+    width: 50%;
+    border-radius: 15px; 
+  }
+
+  a {
+    text-decoration:none;
+  }
+
+  #footer {
+    padding: 15px;
+    font-size: 15px;
+    width: 100%;
+    background-color: #21252c;
+  }
+
+  #footer p{
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  @media (max-width: 1024px) {
+    #footer {
+      position: static;
+      width: auto;
+      padding-right: 20px 15px;
+    }
+  }
